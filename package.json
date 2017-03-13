@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "hello": "electron .",
+    "build-win32": "electron-packager . --platform win32 --arch all --out ./dist --overwrite"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.6.2"
+    "electron": "^1.6.2",
+    "electron-packager": "^8.5.2"
   }
 }
